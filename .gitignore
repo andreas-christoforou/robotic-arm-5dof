@@ -1,0 +1,18 @@
+# Arduino / PlatformIO build output
+build/
+.pio/
+*.hex
+*.elf
+
+# Processing export folders
+application.*/
+
+# SolidWorks temp and lock files
+~$*
+*.tmp
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
