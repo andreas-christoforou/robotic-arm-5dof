@@ -2,8 +2,6 @@
 
 An Arduino-controlled robotic arm that finds an object on the table, picks it up and drops it at a fixed spot, without any human input. A small Processing app shows the sensor readings live as a radar screen.
 
-![Robotic arm demo](media/arm_demo.gif)
-
 **Team project** (5 people, undergraduate Mechanical Engineering, Cyprus University of Technology, December 2025).
 My part: wiring of the servos, sensors and power supply, plus the market analysis in the project report. The code was written as a team, with one teammate leading it.
 
@@ -30,7 +28,7 @@ While it runs, the Arduino sends a line like `S1,12.3,S2,24.8,BA,90` over serial
 
 ## Results
 
-The arm found, picked up and placed small objects on its own across repeated runs, as shown in the demo. The second scan still had small angle errors in some runs, so the code would need more tuning for full accuracy. The "far" pose (28 to 40 cm) did not work with our test object. It is still in the code but was not used in practice.
+The arm found, picked up and placed small objects on its own across repeated runs. The second scan still had small angle errors in some runs, so the code would need more tuning for full accuracy. The "far" pose (28 to 40 cm) did not work with our test object. It is still in the code but was not used in practice.
 
 ## Repository structure
 
@@ -38,7 +36,6 @@ The arm found, picked up and placed small objects on its own across repeated run
 arduino/robotic_arm/robotic_arm.ino   main control code
 processing/radar_view/radar_view.pde  live radar display
 cad/                                  SolidWorks parts for the 3D-printed mounts
-media/                                demo GIF and photo
 ```
 
 ## How to run
