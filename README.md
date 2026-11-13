@@ -3,7 +3,7 @@
 An Arduino-controlled robotic arm that finds an object on the table, picks it up and drops it at a fixed spot, without any human input. A small Processing app shows the sensor readings live as a radar screen.
 
 **Team project** (5 people, undergraduate Mechanical Engineering, Cyprus University of Technology, December 2025).
-My part: wiring of the servos, sensors and power supply, plus the market analysis in the project report. The code was written as a team, with one teammate leading it.
+We all worked together on every part of the project: the code, the wiring, the power supply and the testing.
 
 ## How it works
 
